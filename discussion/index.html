@@ -1,0 +1,19 @@
+<script>
+document.write("<div align=\"center\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/"+location.search.substring(1)+"\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe><\div>");
+</script>
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "http://badnews.sytes.net/discussion/?"+location.search.substring(1);  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = location.search.substring(1); // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://badnews-sytes-net.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<body><script id="dsq-count-scr" src="//badnews-sytes-net.disqus.com/count.js" async></script></body>
