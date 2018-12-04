@@ -1,5 +1,10 @@
+
+
+
 <script>
-document.write("<div align=\"center\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/"+location.search.substring(1)+"\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe><br><strong>Не гостевые комментарии идут без премодераци, гостевые также без премодерации,  если подтвержден адрес электронной почты</strong><\div>");
+x=location.search.substring(1);
+x=x.replace('https://www.youtube.com/watch?v=','');
+document.write("<div align=\"center\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/"+x+"\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe><br><strong>Не гостевые комментарии идут без премодераци, гостевые также без премодерации,  если подтвержден адрес электронной почты</strong><\div>");
 </script>
 <div id="disqus_thread"></div>
 <script>
