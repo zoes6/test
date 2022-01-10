@@ -42,4 +42,4 @@ if (long_paramstring.test(param))
  document.write("<script src=\"video.js\"><\/script><br><table align=\"center\" width=\"680\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#FFFFFF\"><tr><td><table align=\"center\" width=\"650\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#FFFFFF\"><tr><td><script type=\"text\/javascript\">video_code_"+obj[0]+"(\""+obj[1]+"\",\""+obj[4]+"\","+obj[2]+","+obj[3]+",\""+prefix+"\","+obj[6]+")<\/script><\/td><\/tr><\/table><br><\/td><\/tr><\/table><br>");
  }
  else
- document.write("<div align=\"center\">?<\/div>");
+ document.write("<div align=\"center\">тест<\/div>");
