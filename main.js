@@ -25,12 +25,7 @@ if (short_paramstring.test(param))
 if (long_paramstring.test(param))
  {
  let result = param.match(long_paramstring);
- id = result[1];
- id = urldecode (id);
- id = decodeBase64 (id);
- //id = Utf8.encode (id);
- var obj = JSON.parse(id);
- //var obj = JSON.parse(decodeBase64(urldecode(result[1])));
+ var obj = JSON.parse(decodeBase64(urldecode(result[1])));
  if (((obj[5]=="") || (typeof obj[5]=='undefined')))
  {
     prefix = "";
