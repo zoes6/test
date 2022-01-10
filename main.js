@@ -42,4 +42,4 @@ if (long_paramstring.test(param))
  document.write("<script src=\"video.js\"><\/script><br><table align=\"center\" width=\"680\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#FFFFFF\"><tr><td><table align=\"center\" width=\"650\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#FFFFFF\"><tr><td><script type=\"text\/javascript\">video_code_"+obj[0]+"(\""+obj[1]+"\",\""+obj[4]+"\","+obj[2]+","+obj[3]+",\""+prefix+"\","+obj[6]+")<\/script><\/td><\/tr><\/table><br><\/td><\/tr><\/table><br>");
  }
  else
- document.write("<div align=\"center\"><script src=\"https:\/\/yastatic.net\/q\/forms-frontend-ext\/_\/embed.js\"><\/script><iframe src=\"https:\/\/forms.yandex.ru\/u\/5efe858584e0a772513d38bd\/?iframe=1\" frameborder=\"0\" name=\"ya-form-5efe858584e0a772513d38bd\" width=\"680\"><\/iframe><\/div>");
+ document.write("<div align=\"center\">?<\/div>");
